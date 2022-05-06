@@ -1,0 +1,8 @@
+package com.phone.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.phone.model.ServiceCenter;
+
+public interface ServiceCenterRepository extends JpaRepository<ServiceCenter,Long> {
+}
